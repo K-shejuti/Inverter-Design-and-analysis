@@ -14,6 +14,8 @@ Ideally if the trip point is VDD/2 then we get the maximum noise margin. In idea
 ![Screenshot from 2024-01-03 12-58-39](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/37980946-dfa7-4a99-8c5c-239861ebb45c)
 
 Here the width of PMOS/ width of NMOS=2. So the trip point is shifted to 0.86. Previous case it was 1.
+### 1.2 Noise Margin analysis
+
 
 
 
