@@ -3,6 +3,7 @@ CMOS Circuits generally consists of a network split into two parts, Upper one re
 
 ## 1.CMOS inverter prelayout analysis
 ### 1.1 Voltage Transfer Characteristics
+DC analysis would be used to plot a Voltage Transfer Characteristics (VTC) curve for the circuit. It will sweep the value of Vin from high to low to determine the working of circuit with respect to different voltage levels in the input. The following plot is observed when simulated :
 
 
 
