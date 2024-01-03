@@ -17,6 +17,9 @@ Ideally if the trip point is VDD/2 then we get the maximum noise margin. In idea
 Here the width of PMOS/ width of NMOS=2. So the trip point is shifted to 0.86. Previous case it was 1.
 ### 1.2 Noise Margin analysis
 
+Now it is time to talk about the important parameters of this device that are based off it's VTC curve. 
+- VOH - Maximum output voltage when it is logic '1'.
+
 
 
 
