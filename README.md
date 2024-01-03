@@ -10,7 +10,8 @@ A voltage transfer characteristics paints a plot that shows the behavior of a de
 
 ![143764318-d0893545-f47c-44b8-a27c-8de8bc4f0759](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/4686bf1c-2d64-4fde-ad4a-d69af84029f1)
 
-Ideally if the trip point is VDD/2 then we get the maximum noise margin. In ideal case the trip point would have been 0.9 . So shifting the VTC curve towards right will help us to achieve the trip point near VDD/2. For this we just need to increase the width of PMOS transistor
+Ideally if the trip point is VDD/2 then we get the maximum noise margin. In ideal case the trip point would have been 0.9 . So shifting the VTC curve towards right will help us to achieve the trip point near VDD/2. For this we just need to increase the width of PMOS transistor.
+
 ![Screenshot from 2024-01-03 12-58-39](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/37980946-dfa7-4a99-8c5c-239861ebb45c)
 
 Here the width of PMOS/ width of NMOS=2. So the trip point is shifted to 0.86. Previous case it was 1.
