@@ -19,6 +19,10 @@ Here the width of PMOS/ width of NMOS=2. So the trip point is shifted to 0.86. P
 
 Now it is time to talk about the important parameters of this device that are based off it's VTC curve. 
 - VOH - Maximum output voltage when it is logic '1'.
+- VOL - Minimun output voltage when it is logic '0'.
+- VIH - Maximum input voltage that can be interpreted as logic '0'.
+- VIL - Minimum input voltage that can be interpreted as logic '1'.
+VOH and VOL are easy to determine as they are your aboslute values. In our case it is 1.8V and 0V respectively. For Vih and Vil, we have another method. At Vin = VIH, NMOS is in Saturation region and PMOS in Linear; while when Vin = VIL, NMOS is in Linear and PMOS in Saturation. Another interesting thing about these points is that, these are the points on the curve, when the magnitude of slope = 1. So we can use measure commands to find them on the plot. In the plot shown below, look at the points that are at the intersection of the vout curve and the blue vertical line. These are our VIH and VIL.
 
 
 
