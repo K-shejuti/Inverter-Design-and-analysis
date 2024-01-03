@@ -33,6 +33,7 @@ NML(Noise Margin for Low) - VIL - VOL
 
 NMH(Noise Margin for HIGH) - VOH - VIH
 
+So for our calculated values, the device would have, NML = 0.74V and NML = 0.98V.
 
 
 
