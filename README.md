@@ -26,8 +26,11 @@ Now it is time to talk about the important parameters of this device that are ba
 VOH and VOL are easy to determine as they are your aboslute values. In our case it is 1.8V and 0V respectively. For Vih and Vil, we have another method. At Vin = VIH, NMOS is in Saturation region and PMOS in Linear; while when Vin = VIL, NMOS is in Linear and PMOS in Saturation. Another interesting thing about these points is that, these are the points on the curve, when the magnitude of slope = 1. So we can use measure commands to find them on the plot. In the plot shown below, look at the points that are at the intersection of the vout curve and the blue vertical line. These are our VIH and VIL.
 
 ![Screenshot from 2024-01-03 13-49-28](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/56359f12-a2c7-450f-840e-883d0c3744c2) ![Screenshot from 2024-01-03 13-47-34](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/8eff866f-78d1-4fa5-95ce-d044858e0f61)
+
 Noise margins are defined as the range of values for which the device can work noise free or with high resistance to noise. This is an important parameter for digital circuits, since they work with a set of specific values(2 for binary systems), so it becomes crucial to know what values of the voltages can it sustain for each value. This range is also referred to as Noise Immunity. There are two such values of Noise margins for a binary system:
+
 NML(Noise Margin for Low) - VIL - VOL
+
 NMH(Noise Margin for HIGH) - VOH - VIH
 
 
