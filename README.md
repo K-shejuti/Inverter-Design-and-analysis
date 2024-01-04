@@ -52,7 +52,15 @@ From the simulation tpHL=0.24 picosecond and tpLH=0.35 picosecond.
 Here we will calculate rise and fall time and factors that affect the rise and fall time. 
 ![Screenshot from 2024-01-04 01-40-19](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/355eb680-5d14-4d82-92d3-558925aa5837)
 
-From the simulation the rise time is approximately 0.34 picosecond and fall time is 0.31 picosecond. 
+From the simulation the rise time is approximately 0.35 picosecond and fall time is 0.31 picosecond. 
+
+Factors affetcting the rise time:
+1) Increasing the power supply VDD will reduce the rise and fall time. In the simulation we will change our power supply from 1.8V to 1.0V and observe how it is affecting our rise time.
+![Screenshot from 2024-01-04 01-49-57](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/d5b80ff6-359f-4275-9c19-3c34898e32be)
+Here Rise time increases from 0.35 to 0.6 picosecond.
+
+
+   
 
 
 
