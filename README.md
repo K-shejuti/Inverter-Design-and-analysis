@@ -55,17 +55,17 @@ Here we will calculate rise and fall time and factors that affect the rise and f
 From the simulation the rise time is approximately 0.35 picosecond and fall time is 0.31 picosecond. 
 
 Factors affetcting the rise time:
-1) Increasing the power supply VDD will reduce the rise and fall time. In the simulation we will change our power supply from 1.8V to 1.0V and observe how it is affecting our rise time.
+1) **Increasing the power supply VDD will reduce the rise and fall time.** In the simulation we will change our power supply from 1.8V to 1.0V and observe how it is affecting our rise time.
 ![Screenshot from 2024-01-04 01-49-57](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/d5b80ff6-359f-4275-9c19-3c34898e32be)
 Here Rise time increases from 0.35 to 0.6 picosecond.
-2) Increase the Load capacitance- it will increase the rise time. Delay will increase.
+2) **Increase the Load capacitance**. It will increase the rise time. Delay will increase.
 ![Screenshot from 2024-01-04 19-39-03](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/7c2ffca7-a862-4aa0-bdd0-6c00a10fb444)
 
 Here the load capacitance value is 1 pico. Now changing the load capacitance from 1 to 0.5 pico will reduce the rise time from 2.55 nano to 1.28 nanosecond.
 
 ![Screenshot from 2024-01-04 19-41-07](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/042d1367-ef32-4068-8872-fd8c9a2df6a5)
 
-3)Increasing the width of the MOSFETs. 
+3)**Increasing the width of the MOSFETs**. 
 Firstly I tried to increase the width of the unloaded inverter and observed the delay. But it did not change the delay much. Becasue increasing the width is reducing the equivalent resistance of the nmos and pmos but at the same time it is increasing the internal capacitance of the inverter by the same factor. so both effect is getting nullified.  Now when the load capacitance is attached I tried to double of width of both MOS. width of PMOS=8 , width of NMOS=4. From the Simulation :
 
 ![Screenshot from 2024-01-04 19-45-59](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/4f0e1dd4-41e8-47de-93e6-d13961a3d665)
