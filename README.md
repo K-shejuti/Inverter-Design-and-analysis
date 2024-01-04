@@ -72,6 +72,36 @@ Firstly I tried to increase the width of the unloaded inverter and observed the 
 
 We can observe that The rise time is reduced to 0.63 ns from 1.2 ns. So for loaded cmos inverter increasing the width will reduce the delay.
 
+### 1.4 Power Analysis
+CMOS Inverter is associated with total 3 kinds of power. 
+1) **Dynamic power** -The input is switching,the capacitor is continously charging or discharging,there is a power loss involved in the process and it is the dynamic power.
+2) **Switching power**- When vin>Vtn (Threshold voltage of the NMOS) ,both the transistor starts conducting,when both are in saturation the current is maximum and after VDD-Vtp, current reduces again to 0. this involved power dissipiation is known as switching power.
+3) **Leakage Power** - In steady state ideally there is no path for current  from   VDD to ground. But there are some leakage current involved and it dissipiates power even in the steady state.
+**NOTE** The dynamic and switching power is involved in transient analysis and leakage power is involved in steady state analysis.
+
+Below is the average power simulation.
+
+![Screenshot from 2024-01-04 21-43-29](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/860094d5-ae8e-4265-85ae-1f751b531cd3)
+
+The average power consumption is 0.81microwatt. 
+
+Ways To reduce the power consumption
+1)**Reduce Switching cycles**- The above power is associated with one switching cycle. but as the no of input cycles increases the power dissipiation increases.
+2) **Reduce load capacitance** -reduncing the load capacitance will reduce the power consumption. It can be achieved with the help of layout. 
+3) **Reduce Power Supply** - Reducing the power supply will automatically reduce the power consumption.
+
+Below is the simulation of average power consumption when the load capacitor is reduced to 0.2pico from 0.5 pico.
+
+![Screenshot from 2024-01-04 21-48-21](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/076ab7f4-9433-4fa7-8f0f-3f82400a26f9)
+
+The power dissipiation is reduced to 0.32microwatt from 0.81 microwatt.
+
+
+
+
+
+
+
 
 
 
