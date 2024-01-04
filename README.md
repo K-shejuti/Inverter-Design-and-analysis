@@ -66,6 +66,13 @@ Here the load capacitance value is 1 pico. Now changing the load capacitance fro
 ![Screenshot from 2024-01-04 19-41-07](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/042d1367-ef32-4068-8872-fd8c9a2df6a5)
 
 3)Increasing the width of the MOSFETs. 
+Firstly I tried to increase the width of the unloaded inverter and observed the delay. But it did not change the delay much. Becasue increasing the width is reducing the equivalent resistance of the nmos and pmos but at the same time it is increasing the internal capacitance of the inverter by the same factor. so both effect is getting nullified.  Now when the load capacitance is attached I tried to double of width of both MOS. width of PMOS=8 , width of NMOS=4. From the Simulation :
+
+![Screenshot from 2024-01-04 19-45-59](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/4f0e1dd4-41e8-47de-93e6-d13961a3d665)
+
+We can observe that The rise time is reduced to 0.63 ns from 1.2 ns. So for loaded cmos inverter increasing the width will reduce the delay.
+
+
 
 
 
