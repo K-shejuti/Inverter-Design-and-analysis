@@ -58,7 +58,7 @@ Factors affetcting the rise time:
 1) **Increasing the power supply VDD will reduce the rise and fall time.** In the simulation we will change our power supply from 1.8V to 1.0V and observe how it is affecting our rise time.
 ![Screenshot from 2024-01-04 01-49-57](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/d5b80ff6-359f-4275-9c19-3c34898e32be)
 Here Rise time increases from 0.35 to 0.6 picosecond.
-2) **Increase the Load capacitance**. It will increase the rise time. Delay will increase.
+2) **Increase the Load capacitance**. It will increase the rise time. Delay will increase. Here I changed the width of PMOS to be 4 and NMOS to be 2. 
 ![Screenshot from 2024-01-04 19-39-03](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/7c2ffca7-a862-4aa0-bdd0-6c00a10fb444)
 
 Here the load capacitance value is 1 pico. Now changing the load capacitance from 1 to 0.5 pico will reduce the rise time from 2.55 nano to 1.28 nanosecond.
