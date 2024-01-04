@@ -36,6 +36,14 @@ NMH(Noise Margin for HIGH) - VOH - VIH
 So for our calculated values, the device would have, NML = 0.74V and NML = 0.98V.
 
 ### 1.3 Delay Analysis
+The propagation delay of inverter  is the difference in time (calculated at 50% of input-output transition), when output switches, after application of input.
+![switch1_new](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/78be9763-16a2-4da5-8281-af9fb0e21b77)
+In the above figure, there are 4 timing parameters. Rise time (tr) is the time, during transition, when output switches from 10% to 90% of the maximum value. Fall time (tf) is the time, during transition, when output switches from 90% to 10% of the maximum value.The propagation delay high to low (tpHL) is the delay when output switches from high-to-low, after input switches from low-to-high. The delay is usually calculated at 50% point of input-output switching, as shown in above figure. The propagation delay low to high(tpLH) is the time during transition when output switches from low to high.
+#### 1.3.1 Propagation delay
+Here first we will calculate propagation delay tpLH and tpHL in simulation.
+
+
+
 
 
 
