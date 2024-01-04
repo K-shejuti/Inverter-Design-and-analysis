@@ -44,6 +44,12 @@ In the above figure, there are 4 timing parameters. Rise time (tr) is the time, 
 #### 1.3.1 Propagation delay
 Here first we will calculate propagation delay tpLH and tpHL in simulation.
 
+![Screenshot from 2024-01-04 01-27-07](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/6cf18a38-0c0e-4d47-a7ed-3aa9b96b265f)
+
+![Screenshot from 2024-01-04 01-34-21](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/ef565d1e-bda5-4942-a8f4-6d4b7d2b5505)
+
+
+
 
 
 
