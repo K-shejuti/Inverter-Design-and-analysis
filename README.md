@@ -46,7 +46,10 @@ Here first we will calculate propagation delay tpLH and tpHL in simulation.
 
 ![Screenshot from 2024-01-04 01-27-07](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/6cf18a38-0c0e-4d47-a7ed-3aa9b96b265f)
 
-From the simulation tpHL=0.24 picosecond and tpLH=0.35 picosecond
+From the simulation tpHL=0.24 picosecond and tpLH=0.35 picosecond.
+
+#### 1.3.2 RISE and FALL time
+Here we will calculate rise and fall time and factors that affect the rise and fall time. 
 
 
 
