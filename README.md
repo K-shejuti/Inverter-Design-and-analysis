@@ -88,7 +88,9 @@ The average power consumption is 0.81microwatt.
 **Ways To reduce the power consumption**
 
 1)**Reduce Switching cycles**- The above power is associated with one switching cycle. but as the no of input cycles increases the power dissipiation increases.
-2) **Reduce load capacitance** -reduncing the load capacitance will reduce the power consumption. It can be achieved with the help of layout. 
+
+2) **Reduce load capacitance** -reduncing the load capacitance will reduce the power consumption. It can be achieved with the help of layout.
+   
 3) **Reduce Power Supply** - Reducing the power supply will automatically reduce the power consumption.
 
 Below is the simulation of average power consumption when the load capacitor is reduced to 0.2pico from 0.5 pico.
