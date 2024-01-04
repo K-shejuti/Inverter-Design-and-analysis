@@ -52,7 +52,7 @@ From the simulation tpHL=0.24 picosecond and tpLH=0.35 picosecond.
 Here we will calculate rise and fall time and factors that affect the rise and fall time. 
 ![Screenshot from 2024-01-04 01-40-19](https://github.com/K-shejuti/Inverter-Design-and-analysis/assets/152790020/355eb680-5d14-4d82-92d3-558925aa5837)
 
-
+From the simulation the rise time is approximately 0.34 picosecond and fall time is 0.31 picosecond. 
 
 
 
